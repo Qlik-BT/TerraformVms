@@ -1,0 +1,3 @@
+*.state.backup
+*.state.lock.info
+*.backup
