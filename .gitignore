@@ -1,3 +1,4 @@
-*.state.backup
-*.state.lock.info
+*.tfstate.backup
+*.tfstate.lock.info
 *.backup
+*.tfstate
