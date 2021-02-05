@@ -2,12 +2,12 @@
 
 variable "ami_id" {
   description = "The id of your ami"
-  default     = "ami-01c4a1f80619834c4"
+  default     = ""
 }
 
 variable "vpc_id" {
   description = "The ID of your desired VPC"
-  default     = "vpc-7be7af1f"
+  default     = ""
 }
 
 variable "vm_number" {
@@ -17,17 +17,17 @@ variable "vm_number" {
 
 variable "subnet_name" {
   description = "The name of your Subnet ID"
-  default     = "subnet-fccfd09b"
+  default     = ""
 }
 
 variable "owner" {
   description = "Your email address"
-  default     = "ohl@qlik.com"
+  default     = ""
 }
 
 variable "vm_key" {
   description = "The Key name for your ec2"
-  default     = "OHLWINKEY"
+  default     = ""
 }
 
 variable "vm_size" {
@@ -47,7 +47,7 @@ variable "associate_public_ip_address" {
 
 variable "region" {
   description = "The region your snapshot is in"
-  default     = "eu-west-1"
+  default     = ""
 }
 
 ## LOCALS BLOCK ##
@@ -60,7 +60,7 @@ locals {
 
 provider "aws" {
   region  = var.region
-  profile = "098204959161_AdministratorAccess"
+  profile = ""
 }
 
 ## RESOURCES BLOCK ##
