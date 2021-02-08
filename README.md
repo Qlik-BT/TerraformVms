@@ -26,4 +26,6 @@ Lastly please make sure you comply with Qlik's Security Policies when you deploy
  
  ### Notes on AWS
  
- * This is currently a work in progress. Please bear with us.
+ * There are two scripts, one creates an AMI from a Snapshot. The other creates a VM from an AMI.
+ * You can use any AMI with the VM Script, not just the ones you create with the previous script.
+ * You will need a pre-configured VPC and Subnet.
