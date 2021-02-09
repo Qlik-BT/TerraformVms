@@ -12,7 +12,7 @@ Lastly please make sure you comply with Qlik's Security Policies when you deploy
 
 ### General Notes
 
-* The login credentials for these VMs will be the same as the VMs the snapshots or images were created from.
+* It is a good idea to test your snapshots deployments before deleting your VMs.
 * Please make sure you run Terraform from within the relevant folder for the cloud you are deploying to.
 * If you are forking this repo, please make sure that you do not commit your tfstate or tfstate.backup files.
 * Make sure that you do not commit any sensitive information. API Keys for example (not that you should be using these in the first place).
