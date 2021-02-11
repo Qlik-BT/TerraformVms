@@ -7,7 +7,7 @@ variable "ami_id" {
 
 variable "vpc_id" {
   description = "The ID of your desired VPC"
-  default     = ""
+  default     = ""..
 }
 
 variable "vm_number" {
